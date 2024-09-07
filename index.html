@@ -10,11 +10,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
     <link rel="icon" href="https://cdn.glitch.global/b39d6a4a-0e14-4b41-930d-29d3ccd6c137/PINGOBRAS icon.png?v=1665177105635" />
-    <link rel="stylesheet" href="/src/css/reset.css">
-    <link rel="stylesheet" href="/src/css/style.css">
     <links>
-    <link rel="stylesheet" href="https://pingobras.glitch.me/src/css/bootstrap.css">
+        <link rel="stylesheet" href="https://pingobras.glitch.me/src/css/bootstrap.css">
     </links>
+    <link rel="stylesheet" href="./src/css/reset.css">
 
     <title>Imersão Alura - Google Gemini</title>
 </head>
@@ -24,7 +23,10 @@
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite uma Linguagem de Programação">
+            <input
+            id="campo-pesquisa"
+            type="text"
+            placeholder="Digite uma Linguagem de Programação">
             <button onclick="pesquisar()">Pesquisar</button>
         </section>
         <section class="resultados-pesquisa" id="resultados-pesquisa">
@@ -42,10 +44,14 @@
         </div>
     </footer>
 <scripts>
-    <script src="/src/js/index.js" defer></script>
+    <script src="./src/js/index.js" defer></script>
 </scripts>
 <autoscripts>
-    <!-- <script src="https://pingobras.glitch.me/src/js/load-scripts.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://pingobras.glitch.me/src/js/window.cache.js"></script>
+    <script src="https://pingobras.glitch.me/src/js/manutencao-redirect.js"></script>
+    <script src="https://pingobras.glitch.me/src/js/copyright.js"></script>
+    <script src="https://pingobras.glitch.me/src/js/functions.js"></script>
 </autoscripts>
 <host>
     <script src="https://pingobras.glitch.me/src/js/load-host.js" defer></script>
