@@ -4,7 +4,7 @@ let dados; // Variável global para armazenar os dados obtidos da API
   // Função auto-invocável para encapsular a lógica de fetch
 
   // Configuração da requisição para buscar os dados em formato JSON
-  const url = "/src/data/dados.json";
+  const url = "./src/data/dados.json";
   const options = {
     method: "GET",
     mode: "cors",
